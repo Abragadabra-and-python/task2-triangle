@@ -7,7 +7,7 @@ else:
 	for i in range(0, rows):
 		for j in range(0, spaces):
 			print(end=' ') # Displaying spaces
-		spaces -= 2
+		spaces -= 1
 		for j in range(0, i + 1):
 			print('* ', end='') # Displaying stars
 		print('')
